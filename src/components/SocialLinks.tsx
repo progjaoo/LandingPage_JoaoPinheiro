@@ -7,7 +7,7 @@ const SocialLinks = () => {
         href="https://instagram.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="w-12 h-12 rounded-full bg-white/20 hover:bg-white/30 backdrop-blur-sm flex items-center justify-center transition-all duration-300 hover:scale-110"
+        className="w-12 h-12 rounded-full bg-white/40 hover:bg-white/30 backdrop-blur-sm flex items-center justify-center transition-all duration-300 hover:scale-110"
         aria-label="Instagram"
       >
         <Instagram className="w-6 h-6 text-white" />
@@ -17,7 +17,7 @@ const SocialLinks = () => {
         href="https://youtube.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="w-12 h-12 rounded-full bg-white/20 hover:bg-white/30 backdrop-blur-sm flex items-center justify-center transition-all duration-300 hover:scale-110"
+        className="w-12 h-12 rounded-full bg-white/40 hover:bg-white/30 backdrop-blur-sm flex items-center justify-center transition-all duration-300 hover:scale-110"
         aria-label="YouTube"
       >
         <Youtube className="w-6 h-6 text-white" />

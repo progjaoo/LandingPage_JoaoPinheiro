@@ -70,32 +70,52 @@ const Index = () => {
 
       
       <footer className="bg-primary py-8 px-4">
-        <div className="container mx-auto max-w-4xl">
-          <div className="flex flex-col md:flex-row items-center justify-center md:justify-between gap-6">
-            <div className="scale-75 md:scale-90">
-              <img src={logoSite} className="w-20 ml-10 animate-fade-in"></img>
-            </div>
-
-            {/* Contact Info */}
-            <div className="text-white text-center md:text-right space-y-2">
-              <div className="text-center text-sm opacity-90">
-            <p>© 2025 Rádio 89.7 Maravilha FM. Todos os direitos reservados.</p>
+      <div className="container mx-auto max-w-4xl">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
+          
+          {/* Logo */}
+          <div className="flex justify-center md:justify-start w-full md:w-auto">
+            <img
+              src={logoSite}
+              alt="Logo Rádio Maravilha"
+              className="w-20 animate-fade-in"
+            />
           </div>
-              {/* <p className="text-sm md:text-base">
-                Whatsapp:{" "}
-                <a 
-                  href="https://wa.me/5531999982089" 
-                  className="font-semibold hover:underline"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  (31) 99998-2089
-                </a>
-              </p> */}
-            </div>
+
+          {/* Contact Info */}
+          <div className="text-white space-y-2 md:text-right">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.google.com/maps/dir//Av.+Ces%C3%A1rio+Alvim,+818+-+Centro,+Uberl%C3%A2ndia+-+MG,+38400-098/@-18.9166706,-48.3548947,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94a445efc6a95ae9:0x9807940a374876b9!2m2!1d-48.272493!2d-18.9166888?entry=ttu"
+              className="hover:underline"
+            >
+              <p className="text-sm md:text-base leading-snug">
+                Avenida Cesário Alvim, 818, loja 25, 26 e 27, Edifício 2000<br />
+                Centro, Uberlândia - MG
+              </p>
+            </a>
+
+            <p className="text-sm md:text-base">
+              Whatsapp:{" "}
+              <a
+                href="https://wa.me/5531999982089"
+                className="font-semibold hover:underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                (31) 99998-2089
+              </a>
+            </p>
+
+            <p className="text-xs text-gray-200 mt-2">
+              © 2025 Rádio 89.7 Maravilha FM — Todos os direitos reservados.
+            </p>
           </div>
         </div>
-      </footer>
+      </div>
+    </footer>
+
     </div>
   );
 };
