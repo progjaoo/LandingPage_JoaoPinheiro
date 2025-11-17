@@ -11,8 +11,8 @@ export interface RadioInfo {
 // -----------------------------
 // Função para buscar info atual da rádio
 // -----------------------------
-const API_URL = "https://radiovox.conectastm.com/api-json/Vkc1d1FrNUZNVUpRVkRBOStS";
-
+const API_URL = "";
+//https://radiovox.conectastm.com/api-json/Vkc1d1FrNUZNVUpRVkRBOStS
 export async function getRadioInfo(): Promise<RadioInfo | null> {
   try {
     const response = await fetch(API_URL);

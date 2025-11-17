@@ -49,6 +49,7 @@ const AudioPlayer = () => {
   // Lógica da exibição
   const nomeMusica = musicaAtual?.trim() || "";
   const isInvalido =
+    nomeMusica === "" ||
     nomeMusica === "-" ||
     nomeMusica === "" ||
     nomeMusica.toLowerCase().includes("radio maravilha fm") ||
@@ -85,7 +86,7 @@ const AudioPlayer = () => {
               {isInvalido ? (
                 <>
                   <h3 className="font-semibold text-foreground text-sm md:text-base">
-                    89.7 - Rádio Maravilha FM
+                    89.7 - Rádio Maravilha FM - Uberlândia
                   </h3>
                   <p className="text-muted-foreground text-xs md:text-sm mt-1 leading-tight">
                     A Rádio de todas as igrejas<br />
