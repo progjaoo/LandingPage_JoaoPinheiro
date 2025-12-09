@@ -9,7 +9,7 @@ const Video = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <section 
-        className="relative bg-primary py-12 md:py-20 px-4 overflow-hidden"
+        className="relative bg-primary py-8 md:py-12 px-4 overflow-hidden"
         style={{
           backgroundImage: `url(${bgDesktop})`,
           backgroundSize: 'cover',
