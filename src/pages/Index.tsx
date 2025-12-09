@@ -54,7 +54,7 @@ const Index = () => {
         <div className="flex justify-center mt-6">
           <Link 
             to="/video"
-            className="flex items-center gap-2 bg-white hover:bg-white/90 text-primary px-6 py-3 rounded-full font-semibold shadow-lg transition-all duration-300 hover:scale-105"
+            className="flex items-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground px-6 py-3 rounded-full font-semibold shadow-lg transition-all duration-300 hover:scale-105"
           >
             <Video size={20} />
             Assistir ao Vivo
