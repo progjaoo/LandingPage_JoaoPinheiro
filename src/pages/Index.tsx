@@ -3,7 +3,9 @@ import AudioPlayer from "@/components/AudioPlayer";
 import SocialLinks from "@/components/SocialLinks";
 import bgDesktop from "@/assets/bg-desktop.png";
 import bgMobile from "@/assets/bg-mobile.png";
-import logoSite from "@/assets/logoSite.svg"
+import logoSite from "@/assets/logoSite.svg";
+import { Link } from "react-router-dom";
+import { Video } from "lucide-react";
 const Index = () => {
   return (
     <div className="min-h-screen flex flex-col">
@@ -49,6 +51,15 @@ const Index = () => {
 
       <section className="relative -mt-8 md:-mt-10 px-4 z-20 animate-scale-in">
         <AudioPlayer />
+        <div className="flex justify-center mt-6">
+          <Link 
+            to="/video"
+            className="flex items-center gap-2 bg-white hover:bg-white/90 text-primary px-6 py-3 rounded-full font-semibold shadow-lg transition-all duration-300 hover:scale-105"
+          >
+            <Video size={20} />
+            Assistir ao Vivo
+          </Link>
+        </div>
       </section>
 
       <section className="bg-background py-12 md:py-16 px-4 flex-1">
