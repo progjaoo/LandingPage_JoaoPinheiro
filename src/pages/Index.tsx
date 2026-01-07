@@ -98,12 +98,11 @@ const Index = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.google.com/maps/dir//Av.+Ces%C3%A1rio+Alvim,+818+-+Centro,+Uberl%C3%A2ndia+-+MG,+38400-098/@-18.9166706,-48.3548947,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94a445efc6a95ae9:0x9807940a374876b9!2m2!1d-48.272493!2d-18.9166888?entry=ttu"
+              href="https://www.google.com/maps/place/R.+Geraldo+Rios,+80+-+Centro,+Jo%C3%A3o+Pinheiro+-+MG,+38770-000/@-17.7442961,-46.1769804,17z/data=!3m1!4b1!4m10!1m2!2m1!1sRua+Geraldo+Rios,+80+-+Centro!3m6!1s0x94abe2e2ed3273af:0x9754ab51e5fe5895!8m2!3d-17.7443013!4d-46.1721095!15sCh1SdWEgR2VyYWxkbyBSaW9zLCA4MCAtIENlbnRyb5IBEWNvbXBvdW5kX2J1aWxkaW5n4AEA!16s%2Fg%2F11c4qf7_4q?entry=ttu&g_ep=EgoyMDI2MDEwNC4wIKXMDSoASAFQAw%3D%3D"
               className="hover:underline"
             >
               <p className="text-sm md:text-base leading-snug">
-                Avenida Cesário Alvim, 818, loja 25, 26 e 27, Edifício 2000<br />
-                Centro, Uberlândia - MG
+                R. Geraldo Rios, 80 - Centro, João Pinheiro - MG, 38770-000<br />
               </p>
             </a>
 
@@ -120,7 +119,7 @@ const Index = () => {
             </p> */}
 
             <p className="text-xs text-gray-200 mt-2">
-              © 2025 Rádio 89.7 Maravilha FM — Todos os direitos reservados.
+              © 2025 Rádio 94.7 Maravilha FM — Todos os direitos reservados.
             </p>
           </div>
         </div>
