@@ -35,9 +35,6 @@ export async function getRadioInfo(): Promise<RadioInfo | null> {
   }
 }
 
-// -----------------------------
-// para controlar o player
-// -----------------------------
 class RadioService {
   private listeners: ((playing: boolean) => void)[] = [];
   private isPlaying = false;
@@ -46,8 +43,10 @@ class RadioService {
 
   private getAudio(): HTMLAudioElement {
     if (!this.audio) {
-      this.audio = new Audio(this.audioUrl);
-      this.audio.crossOrigin = "anonymous";
+      this.audio = new Audio();
+      this.audio.src = this.audioUrl;
+      this.audio.preload = "none";
+      this.audio.autoplay = false;
     }
     return this.audio;
   }
@@ -88,8 +87,5 @@ class RadioService {
   }
 }
 
-// -----------------------------
-// Export padrão do serviço
-// -----------------------------
 const radioService = new RadioService();
 export default radioService;
