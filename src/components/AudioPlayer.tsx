@@ -86,7 +86,7 @@ const AudioPlayer = () => {
               {isInvalido ? (
                 <>
                   <h2 className="font-semibold text-foreground text-sm md:text-base">
-                    Rádio Maravilha FM - João Pinheiro
+                    Rádio Maravilha FM - João Pinheiro 
                   </h2>
                   <p className="text-muted-foreground text-xs md:text-sm mt-1 leading-tight">
                     A Rádio de todas as igrejas<br />
