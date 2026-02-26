@@ -4,7 +4,7 @@ const SocialLinks = () => {
   return (
     <div className="flex items-center justify-center gap-4">
       <a
-        href="https://instagram.com/radio89maravilha"
+        href="https://instagram.com/joaopinheiro94maravilha"
         target="_blank"
         rel="noopener noreferrer"
         className="w-12 h-12 rounded-full bg-white/40 hover:bg-white/30 backdrop-blur-sm flex items-center justify-center transition-all duration-300 hover:scale-110"
