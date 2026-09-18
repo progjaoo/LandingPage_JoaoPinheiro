@@ -75,7 +75,11 @@ class RadioService {
   }
 
   toggle() {
-    this.isPlaying ? this.pause() : this.play();
+    if (this.isPlaying) {
+      this.pause();
+    } else {
+      this.play();
+    }
   }
 
   setVolume(vol: number) {

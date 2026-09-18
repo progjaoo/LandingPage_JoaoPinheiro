@@ -1,11 +1,11 @@
-import RadioLogo from "@/components/RadioLogo";
 import AudioPlayer from "@/components/AudioPlayer";
 import SocialLinks from "@/components/SocialLinks";
 import bgDesktop from "@/assets/bg-desktop.png";
 import bgMobile from "@/assets/bg-mobile.png";
-import logoSitee from "@/assets/logoSitee.svg";
-import { Link } from "react-router-dom";
-import { Video } from "lucide-react";
+// Logo oficial da Rádio 89.7 FM
+// Quando você enviar a sua foto para o Hero depois, basta atualizar este import ou colocar o arquivo da foto
+import logoRadio from "@/assets/logo.svg";
+
 const Index = () => {
   return (
     <div className="min-h-screen flex flex-col">
@@ -26,17 +26,18 @@ const Index = () => {
           }}
         />
         
-        <div className="relative z-10 container mx-auto max-w-5x1" >
+        <div className="relative z-10 container mx-auto max-w-5xl">
           
-        <div className="flex justify-center mb-10 animate-fade-in">
-          <img
-            src={logoSitee}
-            alt="Logo Rádio"
-            className="w-50 md:w-100"
-          />
-        </div>
+          {/* Logo / Foto do Hero */}
+          <div className="flex justify-center mb-8 md:mb-10 animate-fade-in">
+            <img
+              src={logoRadio}
+              alt="Rádio 89.7 Maravilha FM"
+              className="max-h-52 sm:max-h-64 md:max-h-80 w-auto max-w-full object-contain drop-shadow-xl transition-transform duration-300 hover:scale-[1.02]"
+            />
+          </div>
          
-          <h1 className="text-1x1 text-white text-center mb-8 md:mb-10 animate-fade-in px-4">
+          <h1 className="text-xl md:text-2xl font-medium text-white text-center mb-8 md:mb-10 animate-fade-in px-4 leading-relaxed">
             A rádio de todas as igrejas
             <br />
             que toca o som do céu! 
@@ -66,7 +67,7 @@ const Index = () => {
       <section className="bg-background py-12 md:py-16 px-4 flex-1">
         <div className="container mx-auto max-w-3xl space-y-6 text-center">
           <p className="text-foreground text-base md:text-lg leading-relaxed">
-            A Rádio 94.7 Maravilha FM é a sua companhia diária, levando até você muito mais do que música: transmitimos fé, esperança e a Palavra de Deus, sempre com uma programação de excelência feita para abençoar e transformar vidas.
+            A Rádio 89.7 Maravilha FM é a sua companhia diária, levando até você muito mais do que música: transmitimos fé, esperança e a Palavra de Deus, sempre com uma programação de excelência feita para abençoar e transformar vidas.
           </p>
 
           <p className="text-foreground text-base md:text-lg leading-relaxed">
@@ -74,7 +75,7 @@ const Index = () => {
           </p>
 
           <p className="text-foreground text-base md:text-lg leading-relaxed">
-            Em João Pinheiro, sintonize 94.7 FM e viva a experiência de ter a Maravilha FM como parte da sua rotina. Porque aqui, cada canção e cada palavra são preparadas especialmente para você!
+            Em João Pinheiro, sintonize 89.7 FM e viva a experiência de ter a Maravilha FM como parte da sua rotina. Porque aqui, cada canção e cada palavra são preparadas especialmente para você!
           </p>
         </div>
       </section>
@@ -87,9 +88,9 @@ const Index = () => {
           {/* Logo */}
           <div className="flex justify-center md:justify-start w-full md:w-auto">
             <img
-              src={logoSitee}
-              alt="Logo Rádio Maravilha"
-              className="w-20 animate-fade-in"
+              src={logoRadio}
+              alt="Logo Rádio 89.7 Maravilha FM"
+              className="w-20 md:w-24 animate-fade-in object-contain"
             />
           </div>
 
@@ -119,7 +120,7 @@ const Index = () => {
             </p> */}
 
             <p className="text-xs text-gray-200 mt-2">
-              © {new Date().getFullYear()} Rádio 94.7 Maravilha FM — Todos os direitos reservados.
+              © {new Date().getFullYear()} Rádio 89.7 Maravilha FM — Todos os direitos reservados.
             </p>
           </div>
         </div>
